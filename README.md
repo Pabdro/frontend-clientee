@@ -1,5 +1,3 @@
-# rommos
-
 ## Project setup
 ```
 npm install

@@ -1,8 +1,8 @@
 <template>
-  <section id="herramientas">
+  <section id="division">
     <div class="pt-5 pb-5">
       <div class="container">
-        <h2 class="text-center mb-4 tools-title">Herramientas</h2>
+        <h2 class="text-center mb-4 tools-title">Division</h2>
         <div class="row justify-content-center mt-5">
           <div v-for="card in cards" :key="card.id" class="col-md-4">
             <div class="card-wrapper" @mouseover="toggleOverlay(card.id)" @mouseleave="toggleOverlay(card.id)">
@@ -25,8 +25,8 @@
             </div>
             <!-- Nuevo texto con hipervínculo debajo de cada tarjeta -->
             <div class="text-center mt-2">
-              <a v-if="card.id === 1" href="https://www.figma.com/file/vKPXFYGaHc3PaVPHvje35N/MockupsRommos?type=design&node-id=0-1&mode=design&t=WnoEYYuApfYvs3Zk-0" class="docs-link" target="_blank">Nuestro Figma</a>
-              <a v-if="card.id === 2" href="https://trello.com/invite/b/DAk7PrRj/ATTIa9b99d3cddd3ff8d0e1b2c1785182e916B458072/rommos-srl-proyecto " class="docs-link" target="_blank">Nuestro Trello</a>
+              <a v-if="card.id === 1" href="https://www.facebook.com/profile.php?id=100083152845774&sk=about" class="docs-link" target="_blank">Nuestro Facebook</a>
+              <a v-if="card.id === 2" href="https://www.facebook.com/EROBOTBOLIVIA/" class="docs-link" target="_blank">Nuestro Facebook</a>
             </div>
           </div>
         </div>
@@ -42,18 +42,18 @@ export default {
       cards: [
         {
           id: 1,
-          imageSrc: require("../assets/figma.png"),
+          imageSrc: require("../assets/drimec.jpg"),
           imageAlt: "Image 1",
-          description: "Figma",
-          hoverText: "Plataforma de diseño colaborativo, cuenta con prototipado y diseño de interfaces.",
+          description: "Drimec",
+          hoverText: "Consruccion y diseño maquinas industriales",
           hovered: false,
         },
         {
           id: 2,
-          imageSrc: require("../assets/trello.png"),
+          imageSrc: require("../assets/E-ROBOT.png"),
           imageAlt: "Image 2",
-          description: "Trello",
-          hoverText: "Herramienta de gestión de proyectos basada en tableros visuales.",
+          description: "E-ROBOT",
+          hoverText: "Cursos y materiales relacionados a la robótica y electrónica, Placas arduino, mini computadoras, raspberry pi, microcontroladores y software libre.",
           hovered: false,
         },
       ],

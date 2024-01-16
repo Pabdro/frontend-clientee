@@ -5,12 +5,12 @@
         <div class="row">
           <!-- Logo a la izquierda -->
           <div class="col-md-2">
-            <img src="../assets/Romos.png" alt="Logo" class="footer-logo" />
+            <img src="../assets/titulo_machinelearning-removebg-preview.png" alt="Logo" class="footer-logo" />
           </div>
           <div class="col-md-10">
             <div class="footer-section">
               <!-- Texto genérico -->
-              <p class="footer-text">© 2023 Tu Empresa. Todos los derechos reservados.</p>
+              <p class="footer-text">© 2023 Machine Learning. Todos los derechos reservados.</p>
               <p class="footer-text">Términos de Servicio | Política de Privacidad</p>
             </div>
           </div>

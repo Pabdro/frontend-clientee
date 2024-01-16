@@ -3,8 +3,6 @@
   <body>
     <CoverImage />
     <PageDescription />
-    <FaseInicio /> 
-    <FasePlan />
     <TolSection />
     <MockupsPage /> 
     <FasePrueba />
@@ -20,8 +18,8 @@ import CoverImage from "./components/CoverImage.vue";
 import Footer from "./components/Footer.vue";
 import PageDescription from "./components/PageDescription.vue";
 import TolSection from "./components/TolSection.vue";
-import FaseInicio from "./components/FaseInicio.vue";
-import FasePlan from "./components/FasePlan.vue";
+//import FaseInicio from "./components/FaseInicio.vue";
+//import FasePlan from "./components/FasePlan.vue";
 import FasePrueba from "./components/FasePrueba.vue";
 import MockupsPage from "./components/MockupsPage.vue";
 import FaseCierre from "./components/FaseCierre.vue";
@@ -34,8 +32,8 @@ export default {
     CoverImage,
     Footer,
     PageDescription,
-    FaseInicio,
-    FasePlan,
+    //FaseInicio,
+    //FasePlan,
     FasePrueba,
     TolSection,
     MockupsPage,

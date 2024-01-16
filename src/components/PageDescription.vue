@@ -20,7 +20,7 @@
 export default {
   data() {
     return {
-      title: "Rommos S.R.L",
+      title: "Machine learning",
       description:
         "Se establece como un emprendimiento boliviano dedicado a brindar asesoramiento profesional en diversas áreas empresariales. Brindar asistencia integral y personalizada a todos nuestros clientes, mediante servicios de consultoría, asesoría y capacitación, con el fin de contribuir en la oportuna toma de decisiones. Se compromete a promover la cultura de valores profesionales en sus clientes.",
     };

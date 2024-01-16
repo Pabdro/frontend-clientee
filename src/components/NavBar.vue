@@ -6,7 +6,7 @@
     >
       <a class="navbar-brand" href="#inicio">
         <img
-          src="../assets/jam.png"
+          src="../assets/machine_learning-removebg-preview.png"
           alt="Logo"
           width="auto"
           height="40"
@@ -15,21 +15,21 @@
       </a>
   
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto text">
           <li class="nav-item">
             <a class="nav-link text-white" href="#inicio">Principal</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#descripcion">Descripción</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link text-white" href="#fases">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#planificacion">Planificacion</a>
-          </li>
+          </li> -->
           <li class="nav-item">
-            <a class="nav-link text-white" href="#herramientas">Herramientas</a>
+            <a class="nav-link text-white" href="#division">Division</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#mockups">Mockups</a>
@@ -41,17 +41,17 @@
             <a class="nav-link text-white" href="#cierre">Cierre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#manual">Manual</a>
+            <a class="nav-link text-white" href="#manual">Productos</a>
           </li>
         </ul>
       </div>
       <a
-        href="https://wa.me/59165165908"
+        href="https://wa.me/59162426763"
         target="_blank"
         class="navbar-text m-3 d-flex justify-content-end text-white"
       >
         <img
-          src="../assets/Romos.png"
+          src="../assets/titulo_machinelearning-removebg-preview.png"
           alt="WhatsApp"
           width="auto"
           height="55"
