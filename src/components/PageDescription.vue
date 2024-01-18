@@ -39,5 +39,6 @@ export default {
   font-weight: semi-bold;
   color: #747272; 
   text-align: justify;
+  font-family: Tahoma, sans-serif;
 }
 </style>

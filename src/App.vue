@@ -5,8 +5,6 @@
     <PageDescription />
     <TolSection />
     <MockupsPage /> 
-    <FasePrueba />
-    <FaseCierre />
     <ManualPart />
   </body>
   <Footer></Footer>
@@ -20,9 +18,9 @@ import PageDescription from "./components/PageDescription.vue";
 import TolSection from "./components/TolSection.vue";
 //import FaseInicio from "./components/FaseInicio.vue";
 //import FasePlan from "./components/FasePlan.vue";
-import FasePrueba from "./components/FasePrueba.vue";
+//import FasePrueba from "./components/FasePrueba.vue";
 import MockupsPage from "./components/MockupsPage.vue";
-import FaseCierre from "./components/FaseCierre.vue";
+//import FaseCierre from "./components/FaseCierre.vue";
 import ManualPart from "./components/ManualPart.vue"
 
 export default {
@@ -34,10 +32,10 @@ export default {
     PageDescription,
     //FaseInicio,
     //FasePlan,
-    FasePrueba,
+    //FasePrueba,
     TolSection,
     MockupsPage,
-    FaseCierre,
+    //FaseCierre,
     ManualPart
 },
 };
@@ -58,5 +56,11 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background-color: #555; /* Color del scroll al pasar el cursor sobre él */
 }
+*{
+    -ms-overflow-style: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
 
 </style>

@@ -32,14 +32,14 @@
             <a class="nav-link text-white" href="#division">Division</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#mockups">Mockups</a>
+            <a class="nav-link text-white" href="#mockups">Diseños</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link text-white" href="#pruebas">Pruebas</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#cierre">Cierre</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link text-white" href="#manual">Productos</a>
           </li>
@@ -51,7 +51,7 @@
         class="navbar-text m-3 d-flex justify-content-end text-white"
       >
         <img
-          src="../assets/titulo_machinelearning-removebg-preview.png"
+          src="../assets/wasa-removed.png"
           alt="WhatsApp"
           width="auto"
           height="55"
@@ -93,6 +93,7 @@
   
   .text-white {
     color: white !important;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .text-black {

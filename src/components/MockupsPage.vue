@@ -1,18 +1,17 @@
 <template>
     <section id="mockups" class="pt-5 pb-5">
       <div class="container">
-        <h2 class="text-center mb-4 tools-title">Diseño</h2>
+        <h2 class="text-center mb-4 tools-title">Algunos de nuestros diseños</h2>
         <div class="row justify-content-center">
           <div v-for="(mockup, index) in mockups" :key="index" class="col-md-3">
             <img :src="mockup.imageSrc" :alt="mockup.imageAlt" class="img-fluid" />
           </div>
         </div>
-        <!-- Nuevo enlace de texto debajo de las imágenes -->
-        <div class="row justify-content-center mt-3">
+        <!-- <div class="row justify-content-center mt-3">
           <div class="col-md-8 text-center">
             <a href="https://www.figma.com/file/vKPXFYGaHc3PaVPHvje35N/MockupsRommos?type=design&node-id=0-1&mode=design&t=WnoEYYuApfYvs3Zk-0" class="docs-link" target="_blank">Explora nuestros Mockups</a>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
   </template>
@@ -23,19 +22,19 @@
       return {
         mockups: [
           {
-            imageSrc: require("../assets/inicioMoc.png"),
+            imageSrc: require("../assets/envolvedora.jpg"),
             imageAlt: "Mockup 1",
           },
           {
-            imageSrc: require("../assets/cursosMoc.png"),
+            imageSrc: require("../assets/tripode.jpg"),
             imageAlt: "Mockup 2",
           },
           {
-            imageSrc: require("../assets/pagCurso.png"),
+            imageSrc: require("../assets/termoformadora.jpg"),
             imageAlt: "Mockup 3",
           },
           {
-            imageSrc: require("../assets/payMoc.png"),
+            imageSrc: require("../assets/cnc.jpg"),
             imageAlt: "Mockup 4",
           },
         ],
